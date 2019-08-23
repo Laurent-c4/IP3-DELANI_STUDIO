@@ -24,3 +24,9 @@
 .part5 {
   text-align: center;
 }
+.part6 {
+  background: url(../ip3_assets/assets/backgrounds/c_image.jpg) no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
