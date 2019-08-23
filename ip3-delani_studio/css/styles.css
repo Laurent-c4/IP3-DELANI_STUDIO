@@ -30,6 +30,18 @@
   color: white;
   text-align: center;
 }
+
 .part6 input {
   background: transparent;
+  width: 70%;
+}
+.row-edit {
+  margin-left: 12%;
+}
+.f-height {
+  margin-left: 220px;
+  height: 300px;
+}
+::placeholder {
+  color: white;
 }
