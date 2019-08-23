@@ -48,3 +48,12 @@
 .part7 {
   text-align: center;
 }
+#design_description {
+  display: none;
+}
+#development_description {
+  display: none;
+}
+#product_description {
+  display: none;
+}
