@@ -61,6 +61,7 @@
   position: absolute;
   top: 10%;
   left: 10%;
+  opacity: 0;
 }
 .text {
   color: white;
