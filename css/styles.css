@@ -57,3 +57,11 @@
 #product_description {
   display: none;
 }
+.project_name  {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.text {
+  color: white;
+}
