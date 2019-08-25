@@ -33,6 +33,7 @@
   background-size: 100%;
   color: white;
   text-align: center;
+
 }
 
 .part6 input {
@@ -93,7 +94,17 @@
   font-size: 40px;
 }
 
-.col-sm-3 {
+.col-sm-auto {
   background: black;
-  text-align: left;
+  text-align: left
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
