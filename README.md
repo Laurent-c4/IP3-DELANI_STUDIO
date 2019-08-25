@@ -2,11 +2,17 @@
 #### A website for Delani Studio, a studio for software development, 2019
 #### By **Laurent Juma**
 ## Description
-We are a studio for softwre development that does design,development and product management for projects that our clients want
+This is a website for Delani Studio, a studio for softwre development that does design,development and product management for products that clients want to be developed.
 ## Setup/Installation Requirements
-* Install a browser
+* Install a web browser
 ## Technologies Used
-Javascript
+Javascript,jQuery
+## Website Overview
+![Image description](ip3_assets/assets/website_screenshots/delani_1.png)
+
+![Image description](ip3_assets/assets/website_screenshots/delani_2.png)
+#### Visit website for more interactivity https://laurent-c4.github.io/IP3-Delani_Studio/
+
 ## Support and contact details
 Contact +254792599994 for any questions concerning the app. Feel free to give your feedback too.
 ### License
@@ -31,4 +37,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 Copyright (c) 2019 **Laurent Juma**
