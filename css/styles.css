@@ -108,3 +108,42 @@
     padding-left: 0;
   }
 }
+@media only screen and (max-width: 768px) {
+  body {
+    [class*="col-"] {
+    width: 100%;
+  }
+  }
+  .part1 {
+    background-size: cover;
+  }
+  .part3 {
+    background-size: cover;
+  }
+  .part6 {
+    background-size:cover;
+  }
+  .col-sm-auto {
+    width: 100%;}
+  .project {
+    width: 80%;
+    text-align: center;
+  }
+  .col-sm-auto {
+    width:auto;
+  }
+  img {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .part1 {
+    background-size: cover;
+  }
+  .part3 {
+    background-size: cover;
+  }
+  .part6 {
+    background-size:cover;
+  }
+}
