@@ -33,7 +33,6 @@
   background-size: 100%;
   color: white;
   text-align: center;
-
 }
 
 .part6 input {
@@ -43,6 +42,7 @@
   color: white;
   font-size: 20px;
 }
+
 .part6 textarea {
   background: transparent;
   margin-left: 5%;
@@ -51,6 +51,7 @@
   color: white;
   font-size: 20px;
 }
+
 .row-edit {
   margin-left: 5;
 }
@@ -98,52 +99,65 @@
   background: black;
   text-align: left
 }
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 
-  > .col,
-  > [class*="col-"] {
+  >.col,
+  >[class*="col-"] {
     padding-right: 0;
     padding-left: 0;
   }
 }
+
 @media only screen and (max-width: 768px) {
   body {
     [class*="col-"] {
-    width: 100%;
+      width: 100%;
+    }
   }
-  }
+
   .part1 {
     background-size: cover;
   }
+
   .part3 {
     background-size: cover;
   }
+
   .part6 {
-    background-size:cover;
+    background-size: cover;
   }
+
   .col-sm-auto {
-    width: 100%;}
+    width: 100%;
+  }
+
   .project {
     width: 80%;
     text-align: center;
   }
+
   .col-sm-auto {
-    width:auto;
+    width: auto;
   }
+
   img {
     text-align: center;
   }
 }
+
 @media only screen and (max-width: 1592px) {
   .part1 {
     background-size: cover;
   }
+
   .part3 {
     background-size: cover;
   }
+
   .part6 {
-    background-size:cover;
+    background-size: cover;
   }
 }

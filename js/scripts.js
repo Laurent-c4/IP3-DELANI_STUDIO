@@ -86,15 +86,15 @@ $(document).ready(function() {
     $("#project_8").fadeTo("slow", 0);
   });
 
-  //Collection of user input and Feedback to user
-  $("#contact").submit(function(event){
+  //Collection of user input and Display of feedback to user
+  $("#contact").submit(function(event) {
     event.preventDefault();
-    var fields=["name","email","message"];
-    var input=[];
-    fields.forEach(function (field) {
-      input.push($("#"+field).val());
+    var fields = ["name", "email", "message"];
+    var input = [];
+    fields.forEach(function(field) {
+      input.push($("#" + field).val());
     });
-    alert("Thank You "+input[0]+" for reaching out to us. We have received your message");
+    alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
     $("#contact")[0].reset();
   });
 });
